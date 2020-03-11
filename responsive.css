@@ -1,0 +1,75 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and (max-width: 767px) {
+	.header_right ul#social_header li {padding-left: 20px;padding-right: 20px;}
+	.invest {width: 70%;}
+	.invest h1 {font-size: 25px;}
+	.travel {width: 70%;}
+	.travel h1 {font-size: 25px;}
+.travel p {width: 100%;}
+.travel button {width: 100%; text-align: none;}
+.what_we_do_area {padding-top: 50px;height: auto;overflow: hidden;}
+.what_do_left img{width:100%;}
+.social_links ul li {padding-left: 16px;}
+.what_do_left p {width: 100%;font-size: 16px;text-align: justify;}
+.tab_links {width: 55%;margin-right: 24px;}
+.tab_content {width: 40%;margin-right: 0px;margin-left:0;}
+.tabs li a {padding: 1px;}
+.area_heading {padding: 50px;}
+.single_post {width: 45%;margin-left: 0;margin-right: 5%;}
+.single_post img {width: 100%;}
+.post_info .post_date span {margin: 0 10px 0 10px;}
+.single_feature {width: 46%;}
+.footer {
+	padding-left: 5%;
+}
+.footer_left {width: 45%;}
+.footer_right {padding-right: 10px;width: 45%;}
+.footer_left h1 span, .footer_left h2 {font-size: 18px;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)and (max-width: 991px) {
+.header_bg_left {background: url(images/header_left_bg_tab.jpg) no-repeat center center/cover;}
+.invest {width: 70%;}
+.travel {width: 70%;}
+.travel p {width: 100%;}
+.travel button {width: 100%; text-align: none;}
+.what_we_do_area {padding-top: 50px;height: auto;overflow: hidden;}
+.what_do_left {padding-left: 20px;width: 42%;}
+.what_do_left img{width:100%;}
+.what_do_right .area_heading{padding:0;}
+.tab_links {width: 50%;}
+.tabs li a {padding: 4px;}
+.tab_content {width: 39%;margin-left: 0px;}
+.travel_area {padding: 30px 0;}
+.travel_area .area_heading h2 {padding-left: 0px;margin-bottom: 5px;}
+.area_heading {padding: 50px;}
+.all_posts {padding: 15px;margin-left: 0px;}
+.single_post {width: 331px;}
+.single_post img {width: 100%;}
+.features {padding: 5%;}	
+.single_feature {width: 22.5%;}
+.single_feature h3 {font-size: 18px;}
+.single_feature:last-child {margin-right: 0px;}
+.single_feature p {line-height: 20px;text-align: justify;}
+.footer_left {width: 50%;}
+.footer_right {width: 40%;}
+.footer_left h1 span, .footer_left h2 {font-size: 18px;}
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body{}
+}
